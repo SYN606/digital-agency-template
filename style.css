@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+
+/* nabar color */
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar {
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+
+/* navbar margin */
+.left-margin {
+  margin-left: auto;
+}
+
+/* banner */
+
+#banner {
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+.play-btn_svg {
+  aspect-ratio: 1 / 1;
+  width: 35px;
+  margin-right: 1em;
+}
+.agency-tutorial_link {
+  text-decoration: none;
+  color: inherit;
+}
+.agency-tutorial_link:hover {
+  text-decoration: underline;
+}
