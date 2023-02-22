@@ -14,7 +14,7 @@ body {
 }
 .navbar {
   background-color: #8ec5fc;
-  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  background-image: linear-gradient(90deg, #8ec5fc 0%, #e0c3fc 100%);
 }
 
 /* navbar margin */
@@ -26,7 +26,7 @@ body {
 
 #banner {
   background-color: #8ec5fc;
-  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  background-image: linear-gradient(90deg, #8ec5fc 0%, #e0c3fc 100%);
 }
 .play-btn_svg {
   aspect-ratio: 1 / 1;
@@ -39,4 +39,16 @@ body {
 }
 .agency-tutorial_link:hover {
   text-decoration: underline;
+}
+
+/* services */
+
+.services_heading {
+  text-align: center;
+}
+
+.services_img {
+  padding-bottom: 1em;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
