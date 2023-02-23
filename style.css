@@ -138,7 +138,7 @@ body {
 .footer-box {
   background-color: #8ec5fc;
   background-image: linear-gradient(90deg, #8ec5fc 0%, #e0c3fc 100%);
-  padding-bottom: 5em;
+  padding-bottom: 1.5em;
 }
 
 
@@ -161,4 +161,27 @@ width: 1.5em;
 .footer-logo{
   width: 3em;
 
+}
+
+
+/* media queries */
+
+
+@media screen and (max-width: 480px) {
+  .title::before {
+    width: 200px;
+    transform: translateY(45px);
+  }
+  .title::after {
+    width: 35px;
+    height: 9px;
+    transform: translateY(10px);
+  }
+  .social-links {
+    gap: 1.5em;
+  }
+  .social-links li a svg {
+    width: 2em;
+    
+  }
 }
