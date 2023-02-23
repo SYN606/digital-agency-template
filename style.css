@@ -42,16 +42,16 @@ body {
 }
 
 /* services */
-#services{
+#services {
   margin-bottom: 0.5em;
 }
 .services_heading {
   text-align: center;
   margin-bottom: 1em;
 }
-.services_heading::after,
-.services_heading::before{
-  content: '';
+.title::after,
+.title::before {
+  content: "";
   background-color: #8ec5fc;
   background-image: linear-gradient(90deg, #8ec5fc 0%, #e0c3fc 100%);
   margin-left: auto;
@@ -59,11 +59,11 @@ body {
   display: block;
   height: 5px;
 }
-.services_heading::before{
+.title::before {
   width: 200px;
-  transform: translateY(45px);
+  transform: translateY(46px);
 }
-.services_heading::after{
+.title::after {
   width: 35px;
   height: 9px;
   transform: translateY(5px);
@@ -74,7 +74,7 @@ body {
   object-fit: cover;
 }
 
-#services .btn-primary{
+#services .btn-primary {
   border: none;
   border-radius: 20px;
   background-color: #8ec5fc;
@@ -82,3 +82,15 @@ body {
   color: black;
   padding: 7px 20px;
 }
+
+/* about us */
+.about-title {
+  margin-bottom: 1.5em;
+}
+.about-us_list li {
+  padding-left: 1em;
+  list-style-type: "▸";
+}
+
+/* testimonials */
+
