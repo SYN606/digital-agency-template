@@ -94,3 +94,19 @@ body {
 
 /* testimonials */
 
+.testimonial {
+  border-left: 4px solid #8ec5fc;
+}
+
+.client-img {
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  width: 15%;
+}
+.clients{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
